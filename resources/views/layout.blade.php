@@ -42,7 +42,219 @@
 
 <body>
     <div class="boxed_wrapper ltr">
+        <!-- preloader -->
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="txt-loading">
+                            <img src="assets/images/favicon-2.png" style="width: 60px; height: 60px;">
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+         <!-- main header -->
+        <header class="main-header header-style-two">
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="auto-container">
+                    <div class="outer-box">
+                        <figure class="logo-box"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                        <div class="menu-area">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
+                            <nav class="main-menu navbar-expand-md navbar-light clearfix">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li class="current dropdown"><a href="index.html">Home</a>
+                                        </li> 
+                                        <li class=" dropdown"><a href="about.html">About Us</a>
+                                    
+                                        </li> 
+                                        <!-- <li class="dropdown"><a href="event.html">Events</a>
+                        
+                                        </li> -->
+                                        <li class="dropdown"><a href="gallery.html">Gallery</a>
+                    
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li> 
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="menu-right-content">
+                            <div class="btn-box mr_40"><a href="https://youngleadersig.org/gic/register/" class="theme-btn btn-one">Register</a></div>
+                            <ul class="social-links">
+                                <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="auto-container">
+                    <div class="outer-box">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                        </div>
+                        <div class="menu-area">
+                            <nav class="main-menu clearfix">
+                                <!--Keep This Empty / Menu will come through Javascript-->
+                            </nav>
+                        </div>
+                        <div class="menu-right-content">
+                            <div class="btn-box mr_40"><a href="https://youngleadersig.org/gic/register/" class="theme-btn btn-one">Register</a></div>
+                            <ul class="social-links">
+                                <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main-header end -->
+ <!-- Mobile Menu  -->
+ <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+        <div class="close-btn"><i class="fas fa-times"></i></div>
         
+        <nav class="menu-box">
+            <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            <div class="contact-info">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li> Suite B10, Abraham Plaza, Plot 6 Ekukimam St, Utako District, Abuja</li>
+                    <li><a href="tel:+234 (802) 341 6380">+234 (802) 341 6380</a></li>
+                    <li><a href="mailto:info@example.com">youngleadersingovernance@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <ul class="clearfix">
+                    <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                    <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                    <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div><!-- End Mobile Menu -->
+    @yield('content')
+
+    <!-- main-footer -->
+    <footer class="main-footer style-three">
+            <div class="bg-layer" style="background-image: url(assets/images/background/footer-bg.jpg);"></div>
+            <div class="widget-section">
+                <div class="auto-container">
+                    <div class="row clearfix">
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget logo-widget">
+                                <figure class="footer-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt=""></a></figure>
+                                <p style="margin-bottom: 15px;">
+                                    Empowering Leaders, Shaping Futures. Join us in driving positive change and fostering impactful leadership.</p>
+                                <h3>Social Media:</h3>
+                                <ul class="social-links">
+                                    <li><a href="index.html">facebook</a></li>
+                                    <li><a href="index.html">twitter</a></li>
+                                    <li><a href="index.html">linkedin</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
+                                <span class="title-text">Quick Links</span>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="event.html">Events</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget newsletter-widget">
+                                <span class="title-text">News Letter</span>
+                                <div class="widget-content">
+                                    <p>Join our newsletter list and get latest information and updates</p>
+                                    <div class="location-box mb_35">
+                                        <h5>Address :</h5>
+                                        <span><img src="assets/images/icons/icon-5.png" alt="">Suite B10, Abraham Plaza, Plot 6 Ekukimam St, Utako District, Abuja</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget instagram-widget">
+                                <span class="title-text">Instagram</span>
+                                <div class="widget-content">
+                                    <ul class="image-list clearfix">
+                                        <li>
+                                            <figure class="image">
+                                                <img src="assets/images/resource/footer-1.jpg" alt="">
+                                                <a href="index.html"><i class="icon-13"></i></a>
+                                            </figure>
+                                        </li>
+                                        <li>
+                                            <figure class="image">
+                                                <img src="assets/images/resource/footer-2.jpg" alt="">
+                                                <a href="index.html"><i class="icon-13"></i></a>
+                                            </figure>
+                                        </li>
+                                        <li>
+                                            <figure class="image">
+                                                <img src="assets/images/resource/footer-3.jpg" alt="">
+                                                <a href="index.html"><i class="icon-13"></i></a>
+                                            </figure>
+                                        </li>
+                                        <li>
+                                            <figure class="image">
+                                                <img src="assets/images/resource/footer-4.jpg" alt="">
+                                                <a href="index.html"><i class="icon-13"></i></a>
+                                            </figure>
+                                        </li>
+                                        <li>
+                                            <figure class="image">
+                                                <img src="assets/images/resource/footer-5.jpg" alt="">
+                                                <a href="index.html"><i class="icon-13"></i></a>
+                                            </figure>
+                                        </li>
+                                        <li>
+                                            <figure class="image">
+                                                <img src="assets/images/resource/footer-6.jpg" alt="">
+                                                <a href="index.html"><i class="icon-13"></i></a>
+                                            </figure>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom centred">
+                <div class="auto-container">
+                    <div class="copyright"><p>&copy; 2024 YLGI, All Rights Reserved. Powered by TechBuddie.</p></div>
+                </div>
+            </div>
+        </footer>
+        <!-- main-footer end -->
 
     </div>
 </body> 
