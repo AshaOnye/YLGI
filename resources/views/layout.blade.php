@@ -72,18 +72,18 @@
                             <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="index.html">Home</a>
+                                        <li class="current dropdown"><a href="{{route('home)}}">Home</a>
                                         </li> 
-                                        <li class=" dropdown"><a href="about.html">About Us</a>
+                                        <li class=" dropdown"><a href="{{route('about')}}">About Us</a>
                                     
                                         </li> 
                                         <!-- <li class="dropdown"><a href="event.html">Events</a>
                         
                                         </li> -->
-                                        <li class="dropdown"><a href="gallery.html">Gallery</a>
+                                        <li class="dropdown"><a href="{{route('gallery')}}">Gallery</a>
                     
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li> 
+                                        <li><a href="{{route('contact')}}">Contact</a></li> 
                                     </ul>
                                 </div>
                             </nav>
@@ -178,11 +178,11 @@
                                 <span class="title-text">Quick Links</span>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="event.html">Events</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="{{route('home')}}">Home</a></li>
+                                        <!-- <li><a href="{{route('index')}}">Events</a></li> -->
+                                        <li><a href="{{route('about')}}">About</a></li>
+                                        <li><a href="{{route('gallery')}}">Gallery</a></li>
+                                        <li><a href="{{route('contact')}}">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
