@@ -53,7 +53,7 @@
                 </div>   
             </div>
         </div>
-      </div>
+   </div>
     <!-- preloader end -->
 
          <!-- main header -->
@@ -73,9 +73,9 @@
                             <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="{{route('home')}}">Home</a>
+                                        <li class="dropdown"><a href="{{route('home')}}">Home</a>
                                         </li> 
-                                        <li class=" dropdown"><a href="{{route('about')}}">About Us</a>
+                                        <li class="current dropdown"><a href="{{route('about')}}">About Us</a>
                                     
                                         </li> 
                                         <!-- <li class="dropdown"><a href="event.html">Events</a>

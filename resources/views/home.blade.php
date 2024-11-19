@@ -163,7 +163,7 @@
                     
                     <div class="auto-container">
                         <div class="content-box">
-                            <span class="date"><img src="assets/images/icons/icon-1.png" alt="">July 27th 2024</span>
+                            <span class="date"><img src="assets/images/icons/icon-1.png" alt="">#YLGI</span>
                             <h2>Empowering Next Generation Leaders</h2>
                             <p>We groom young leaders in government with skills, integrity, and vision to create a brighter future.</p>
                             <div class="btn-box">
@@ -177,7 +177,7 @@
                    
                     <div class="auto-container">
                         <div class="content-box">
-                            <span class="date"><img src="assets/images/icons/icon-1.png" alt="">July 27th 2024</span>
+                            <span class="date"><img src="assets/images/icons/icon-1.png" alt="">#YLGI</span>
                             <h2>Driving Positive Change Through Youths</h2>
                             <p>We groom young leaders in government with skills, integrity, and vision to create a brighter future.</p>
                             <div class="btn-box">
